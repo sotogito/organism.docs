@@ -1,5 +1,6 @@
 
 - Comparable - compareTo
+
 비교하고자 하는 객체의 변수를 정의한다.
 ```java
 public class Car implements Comparable<Car> {  
@@ -21,11 +22,19 @@ public class Cars {
 		return Collections.min(cars) //최소
 		return Collections.sort(cars) //오름차순
 		return Collections.reverseOrder(cars)//내림차순
-		 
-		
 	}
- 
 }
+```
+- 하나하나 확인하기
+```java
+Car maxCar = cars.get(0);  
+for(int i = 1; i < cars.size(); i++){  
+    Car car2 = cars.get(i);    
+    if(maxCar.compare(maxCar,car2) < 0){        
+	    maxCar = car2;    
+	    }
+	}  
+return maxCar;
 ```
 
 
