@@ -18,7 +18,7 @@ public List<Product> read(String path) throws IOException {
 	    products.add(product);  
   
 	}
-}[]()
+}
 ```
 - try-catch로 IOException는 Reader에서 바로 잡아주는 게 좋다.
 
