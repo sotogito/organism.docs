@@ -16,3 +16,4 @@ Matcher matcher = Pattern.compile(정규식).matcher(input);
 	matcher.matches() 
 		만약 input이 정규식과 다르다면 false이다.
 
+
