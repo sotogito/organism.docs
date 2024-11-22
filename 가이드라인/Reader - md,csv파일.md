@@ -6,7 +6,7 @@ public List<Product> read(String path) throws IOException {
 
 	String line;()  
 	br.readLine(); //첫번째 헤더라인 건너뛰기 
-	while ((line = br.()readLine()) != null) {  
+	while ((line = br.readLine()) != null) {  
   
 	    String[] splitLine = line.split(OrderInputForm.ORDER_DELIMITER.get());  
   
