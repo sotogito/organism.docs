@@ -1,3 +1,4 @@
+## [상품명,가격,수량];[상품명,가격,수량]
 ```java
 public List<Product> parse(String input) {  
     List<Product> result = new ArrayList<>();  
