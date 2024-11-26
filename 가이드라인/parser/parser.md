@@ -1,0 +1,5 @@
+- 처음, split하고 for문 돌릴때 trim()으로 앞뒤 공백을 없앤다.
+- Pattern은 for문 밖에 선언한다. - 어차피 같은 양식이면 한번만 컴파일하면 됨
+	- Matcher를 `while()-find()`로하면 <mark style="background: #BBFABBA6;">양식에 지켜진 데이터 만 선별</mark>되기 때문에 예외 처리면에서 부적합하다.???????????/
+	- `if-matches()`를 통해 하나씩 확인해준다.
+- 
