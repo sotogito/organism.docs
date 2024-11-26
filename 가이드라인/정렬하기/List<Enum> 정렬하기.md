@@ -26,9 +26,9 @@ Coin minCoin = Collections.min(coins, Comparator.comparingInt(Coin::getAmount));
 - 상수화 순서로 최대 & 최소
 ```java
 Coin minCoin = Collections.min(coins); // ordinal() = 0 맨 위의 값
-Coin maxCoin = Collections.max(coins); //ordinal() = 3 만 아래의 값
+Coin maxCoin = Collections.max(coins); //ordinal() = 3
 ```
 
 ---
 Enum은 EnumMap에 넣으면 선언된 순서대로 value값이 들어가듯, Comparable이 정의되어있다.  
-즉 Comparable-  compareTo로 재정의 해줄 수 없다.
+즉 Comparable-  compareTo로 재정의 <mark style="background: #FF5582A6;">해줄 수 없다.</mark>❌
