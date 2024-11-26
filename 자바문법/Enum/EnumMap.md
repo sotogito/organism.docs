@@ -17,7 +17,7 @@ public void addAllMatchedRank(List<Rank> matchedResults) {
 }
 ```
 
-- value값 누적 빼기
+- value값 누적 빼기,차감하기
 ```java
 EnumMap.put(key값, EnumMap.get(key값) - 빼고싶은값);
 ```
