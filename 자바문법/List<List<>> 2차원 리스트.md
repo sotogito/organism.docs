@@ -1,0 +1,45 @@
+- 다중 리스트의 경우 만약 값을 넣고싶으면 line을 가져와서 add해줘야한다. 
+	- `list.get(0).add("value");`
+- get을 해줘야하기 때문에 만약 초기화를 하지 않았을 경우 예외가 터진다
+	- <mark style="background: #FF5582A6;">NullPointerException</mark>, <mark style="background: #FF5582A6;">IndexOutOfBoundsException</mark>
+
+`List<List<String>> result = new ArrayList<>(blocks.size());`
+
+#### line 초기화
+- 순차적으로 값을 넣어줄때
+- `result.get(라인인덱스).add(넣을값);`
+```java
+for (int i = 0; i < 2; i++) { 
+	printoutBridge.add(new ArrayList<>()); 
+}
+```
+- 왜 add로 리스트를 넣어줄까?
+	- `new ArrayList<>()`로 외부 리스트만 초기화한 상태에서는 내부 리스트가 비어 있다.
+	- 즉, 아직 line들이 몇개인지 생성되지 않은 상태이다.
+
+#### 전체 초기화
+- <mark style="background: #BBFABBA6;">값을 지정하여 넣어줄 때</mark>
+- `result.get(라인인덱스).set(리스트인덱스, 넣을값);`
+```java
+for (int i = 0; i < 2; i++) {  
+    List<String> line = new ArrayList<>();     //line에 들어갈 빈 문자열 생성
+    for (int j = 0; j < blocks.size(); j++) {        
+	    line.add(" ");    //빈 문자열에 초기화
+    }    
+    printoutBridge.add(line); //하나의 line 넣어주기
+}
+```
+
+
+---
+- 이중 리스트는 왜 초기화된 리스트에 add를 하면 예외가 터질까?
+	- 이중리스트.get(라인인덱스).add(값);
+	- 인덱스를 참조하기 때문이다.
+	- 단일 리스트는 get을 해오지 않기 때문에 예외가 터지지 않는다.
+
+```java
+for (List<String> line : printoutBridge) {  
+    line = new ArrayList<>();  
+}
+```
+위에는 새롭게 생성된 line 객체에 초기화를 해주는 것이기 2차원 리스트를 초기화시켜줄 수 없다

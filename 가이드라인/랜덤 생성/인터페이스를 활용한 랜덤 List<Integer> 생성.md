@@ -3,6 +3,7 @@
 - RandomNumberMachine : 랜덤 번호 생성 @Override
 - Maker : 랜덤 번호 생성 후 알맞는 자료형 반환
 
+`@FunctionalInterface` : 만약 인터페이스가 하나의 추상 메서드만 가지고 있을 때 사용한다.
 ### NumberMachine 인터페이스
 
 ``` java
