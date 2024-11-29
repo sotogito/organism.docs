@@ -55,4 +55,12 @@ map.put(key값, map.getOrDefault(key값,0)+1);
 - key가 존재할 경우 ⭕️ : 기존값 +1
 - key가 존재하지 않을 경우 ❌ : 0(초기값) +1 
 
-#### 특정 key 포함 유무
+#### 특정 key 포함 유무 - boolean
+```java
+boolean isExist = map.containsKey(key값);
+```
+
+#### Map이 같은지 확인 - boolean
+```java
+boolean isSame = map1.equals(map2);
+```
