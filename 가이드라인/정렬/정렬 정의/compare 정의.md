@@ -1,8 +1,21 @@
 <mark style="background: #FFF3A3A6;">따로 -`Comparator`클래스로 비교하기 위해서는 비교값의 getter이 필요하다.</mark>
 
+#### 선언 및 사용
 ```java
 public class 객체-Comparator implements Comparator<객체> {
+    @Override  
+    public int compare(객체 o1, 객체 o2) {  
+        return o1.getter().compareTo(o2.getter());  
+    }  
+}
 ```
+
+```java
+List<객체> 객체s = new ArrayList<>();
+
+객체s.sort(new 객체-Comparator클래스());
+```
+
 #### Integer
 ```java
 @Override
