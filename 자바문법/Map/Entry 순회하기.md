@@ -1,0 +1,1 @@
+for (Map.Entry<자료형, 자료형> entry : Map이름.entrySet()) {
