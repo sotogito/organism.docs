@@ -7,10 +7,11 @@
 - 단, getter를 사용해야한다.
 
 - **Comparator**:
-    - 객체 **외부**에서 정렬 기준을 정의.
-    - 다양한 정렬 기준을 동적으로 제공.
+    - 객체 외부에서 <mark style="background: #FFF3A3A6;">- Comparator</mark> 클래스로 객체의 필드 기준으로 정렬
+    - 객체 내부에서 <mark style="background: #FFF3A3A6;">static</mark> 메서드로 정렬
+    -  정렬 기준이 다양 
 - **Comparable**:
-    - 객체 **내부**에 "기본 정렬 기준"을 정의.
+    - 객체 *<mark style="background: #FFF3A3A6;">*내부**</mark>에 compareTo로 "기본 정렬 기준"을 정의.
     - 정렬 기준이 고정적.
 
 | **특징**          | **`compareTo`**                   | **`compare`**                               |

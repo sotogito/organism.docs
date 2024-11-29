@@ -80,3 +80,5 @@ Comparator<객체> comparator = Comparator.comparing(객체::get변수);
 ```java
 Comparator<객체> comparator = Comparator.comparing(객체::get변수).reversed();
 ```
+
+#### 객체 내부에서 static 으로 정의하기
