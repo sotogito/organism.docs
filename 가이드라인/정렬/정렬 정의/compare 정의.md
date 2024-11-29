@@ -82,3 +82,12 @@ Comparator<객체> comparator = Comparator.comparing(객체::get변수).reversed
 ```
 
 #### 객체 내부에서 static 으로 정의하기
+```java
+public static final Comparator<객체> BY_NAME = (o1, o2) -> o1.name.compareTo(o2.name); 
+
+public static final Comparator<객체> BY_PRICE = (o1, o2) -> Integer.compare(o1.price, o2.price);
+```
+// 이름 기준 정렬
+`fruits.sort(Fruit.BY_NAME);` 
+// 가격 기준 정렬 
+`fruits.sort(Fruit.BY_PRICE);`
