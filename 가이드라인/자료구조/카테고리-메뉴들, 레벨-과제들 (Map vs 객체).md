@@ -1,6 +1,6 @@
 ### `EnumMap<Level,List<String>>`
 
-- Key를 상수로 사용할때
+- <mark style="background: #FFF3A3A6;">Key를 상수로 사용할때(Enum)</mark>
 - Key를 기준으로 빠르게 조회가 필요할때
 - 키-값 쌍이 동적으로 추가/삭제되어야할때
 - 키가 많아지거나, 동적으로 변할 가능성이 있을 때
