@@ -38,9 +38,7 @@ public boolean equals(Object o) {
         return false;  
     }  
     PairCrew that = (PairCrew) o;  
-    return crews.size() == that.crews.size() &&  
-            new HashSet<>(crews).containsAll(that.crews) &&  
-            new HashSet<>(that.crews).containsAll(crews);  
+    return Objects.equals(new HashSet<>(crews), new HashSet<>(that.crews));
 }  
   
 @Override  
