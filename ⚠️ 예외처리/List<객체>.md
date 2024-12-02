@@ -13,6 +13,25 @@
     }
 ```
 
+- 2개 필드 이상
+```java
+@Override
+public boolean equals(Object o) {
+    if (this == o) return true;
+    if (o == null || getClass() != o.getClass()) return false;
+    Crew crew = (Crew) o;
+    return Objects.equals(name, crew.name) &&
+           Objects.equals(course, crew.course);
+}
+
+@Override
+public int hashCode() {
+    return Objects.hash(name, course); // 둘 다 포함해 안전하게 해시 생성
+}
+
+```
+
+
 - 객체 중복 유효검사
 ``` java
     public static boolean hasDuplicates(List<Car> cars) {
