@@ -3,7 +3,7 @@
 4. function에 getFunctionEnum을 메서드를 작성한다.
 5. Main에서 입력값을 Enum으로 생성하여 기능별 컨트롤러를 실행시킨다.
 ---
-##### Function Enum
+### Function Enum
 ```java
 public enum Function {
     PAIR_MATCHING("1", "페어 매칭"),
@@ -35,7 +35,7 @@ public enum Function {
 }
 ```
 
-##### MainController
+### MainController
 - Function 컨트롤러에서 필요한 서비스, 레퍼지토리, 객체를 생성자에서 의존성을 주입한다.
 - 전역에서 사용햐야하고, 동일하게 관리되어야하는 데이터는 싱글톤으로 선언한다.
 ```java
@@ -85,7 +85,7 @@ public class MainController {
 }
 ```
 
-##### FunctionController
+### FunctionController
 - 기능에 필요한 Service를 따로 설계하여 선언한다.
 ```java
 public class PairMatchingPrintController {
@@ -119,7 +119,7 @@ public class PairMatchingPrintController {
 }
 ```
 
-##### Function 출력
+### Function 출력
 - Enum안에 toString을 정의한다.
 ```java
     public static void printFunction() {
