@@ -26,6 +26,10 @@ int month = date.getMonthValue(); // 숫자로 월 가져오기 (예: 5)
 Month monthEnum = date.getMonth(); // Month enum으로 가져오기 (예: MAY)
 ```
 
+#### 해당 월의 마지막 일 가겨오기
+```java
+int lastDay = yearMonth.lengthOfMonth();
+```
 #### 일 가져오기
 ```java
 int day = date.getDayOfMonth();

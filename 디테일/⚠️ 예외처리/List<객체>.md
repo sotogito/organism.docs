@@ -1,4 +1,7 @@
+### 반드시 .equals() 로 비교하기 (==안됨)
+
 - 객체
+
 ```java
     @Override
     public boolean equals(Object o) {

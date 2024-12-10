@@ -3,9 +3,16 @@
 Map<Integer,String> map = new HashMap<>();
 ```
 
-#### 값 추가
+#### Key로 Value 찾기
 ```java
-map.put(key값,value값);
+String 찾은valuee값 = map.get(key 값);
+```
+
+#### Value로 Key 찾기
+- `Map`에서 Value를 기준으로 Key를 찾으려면 **전체를 순회**해야함
+```java
+        for (Map.Entry<String, String> entry : map.entrySet()) {
+        }
 ```
 
 #### 값 삭제
@@ -37,6 +44,17 @@ while(keys.hasNext()){
 }
 ```
 
+#### Map 인덱스로 순회하기
+- 애초에 Map은 인덱스로 값을 조회할 수 없다. 때문에 Entry의 형태가 필요하다.
+```java
+List<Map.Entry<키, 밸류>> entryList = new ArrayList<>(맵.entrySet());
+
+Map.Entry<LocalDate, Staff> entry = entryList.get(i);  
+LocalDate date = entry.getKey();  
+Staff staff = entry.getValue();
+```
+
+
 #### Integer 값 조정하기
 - 더하기
 ```java
@@ -64,3 +82,20 @@ boolean isExist = map.containsKey(key값);
 ```java
 boolean isSame = map1.equals(map2);
 ```
+
+
+---
+
+#### Key, Value값 변경하기
+- Key 변경하기 : 삭제 후 새로운 key 넣기
+```java
+if (map.containsKey("oldKey")) { 
+	String value = map.remove("oldKey"); //value값을 반환함
+	map.put("newKey", value); 
+}
+```
+- value 변경하기 : 새로운 value로 덮어씌우기
+```java
+map.put("key", "newValue");
+```
+
