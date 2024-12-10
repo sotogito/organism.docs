@@ -65,8 +65,8 @@ map.merge(key값, 더할값, Integer::sum);
 map.put(key값, map.get(key값)+더할값);
 ```
 
- ⚠️ 만약 존재하지 않는 key의 값을 증기시킬 경우에 `NullPointerException` 이 발생한다.
- getOrDefault를 사용하여 대비한다.  
+<mark style="background: #FFF3A3A6;"> ⚠️ 만약 존재하지 않는 key의 값을 증기시킬 경우에 `NullPointerException` 이 발생한다.
+ getOrDefault를 사용하여 대비한다.  </mark>
  ```java
 map.put(key값, map.getOrDefault(key값,0)+1);
 ```
