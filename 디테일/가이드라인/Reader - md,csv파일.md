@@ -1,3 +1,4 @@
+- 보통 싱글톤 내부에서 읽힌다.
 ```java
 public List<Product> read(String path) throws IOException {  
     BufferedReader br = new BufferedReader(new FileReader(path));  
