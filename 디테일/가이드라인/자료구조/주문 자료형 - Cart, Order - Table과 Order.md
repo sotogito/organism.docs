@@ -1,8 +1,9 @@
+#### Map
 - 중복되는 필드가 있는가 ex) table, category
-	- Map의 Key로 사용하라  ex) table
 		- Key를 Enum으로 정의할 수 있는가   ex) category
 			- Enum을 사용하라  
-
+- 중복된 필드를 key로 하고 value를 List<Order.>의 형태가 가능한가?
+- key로 조회를 많이 해야하나?
 ---
 
 만약 단순하게 [상품-수량.]의 관계라면 Order객체를 생성하고 Cart에 List<Order.>로 관리하는게 좋다.
