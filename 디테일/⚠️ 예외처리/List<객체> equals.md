@@ -45,4 +45,16 @@ public int hashCode() {
             }
         }
     }
+
+```
+
+```java
+public void validateDuplicate(List<Staff> staffs) {  
+    Set<Staff> carSet = new HashSet<>();  
+    for (Staff staff : staffs) {  
+        if (!carSet.add(staff)) {  
+            throw new IllegalArgumentException("중복된 값이 있어요.");  
+        }  
+    }  
+}
 ```
