@@ -11,6 +11,7 @@ public int compareTo(객체 o) {
 @Override
 public int compareTo(객체 o) {
     return this.변수.compareTo(o.변수);
+    compareToIgnoreCase() //대소문자 구분 무시함
 }
 ```
 
