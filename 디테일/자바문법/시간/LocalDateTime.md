@@ -105,3 +105,4 @@ LocalDateTime currentTimeInSeoul = LocalDateTime.now(ZoneId.of("Asia/Seoul"));
 System.out.println(currentTimeInSeoul);
 ```
 
+![[Pasted image 20250303151618.png]]
