@@ -1,0 +1,5 @@
+- 파일을 다루기위한 클래스
+- 파일의 크기나 속성, 이름등의 정보를 확인할 수 있고 파일 생성 및 삭제 기능을 제공
+
+File file = new File("file path");
+File file = new File("C:/data/fileTest.txt");
