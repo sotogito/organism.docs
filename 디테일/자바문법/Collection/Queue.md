@@ -1,4 +1,4 @@
- ###FIFO(First In, First Out, 선입선출)
+ ### FIFO(First In, First Out, 선입선출)
 
 ---
 
