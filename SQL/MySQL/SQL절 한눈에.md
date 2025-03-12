@@ -1,6 +1,6 @@
 ### SELECT
 - DISTINCT()
-
+- 별칭 선언 가능, JOIN 별칭도
 
 ### FROM
 - JOIN
@@ -17,3 +17,4 @@
 
 
 ### ORDER BY
+- SELECT, JOIN에서 정의한 별칭 사용 가능
