@@ -128,4 +128,6 @@ GROUP BY
     성별
 ;
 ```
-
+1. FROM : employee테이블 사용
+2. SELECT : 각 행간의 SUBSTRING(EMP_NO, 8, 1) IN ('1', '3')를 판단해서 남자,여자로 나눔
+3. GROUP BY : SELECT의 CASE문대로 남자, 여자로 나눠서 그룹핑
