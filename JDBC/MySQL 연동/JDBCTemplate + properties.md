@@ -6,7 +6,7 @@ user=sotogito
 password=sotogito
 ```
 
-### JDBCTemplate + static getConnection();
+### JDBCTemplate + static 메서드;
 ```java
 public class JDBCTemplate {
     public static Connection getConnection() {
