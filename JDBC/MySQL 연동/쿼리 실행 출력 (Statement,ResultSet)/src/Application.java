@@ -12,7 +12,10 @@ public class Application1 {
 
             /// 결과 처리 로직
             while (rset.next()) {
-                System.out.println(rset.getString("emp_id") + " : "+rset.getString("emp_name"));
+                int emp_id = rs.getInt("emp_id");
+                String emp_name = rs.getString("emp_name");
+                
+                System.out.println(emp_id + " : "+emp_name);
             }
 
         } catch (SQLException e) {
