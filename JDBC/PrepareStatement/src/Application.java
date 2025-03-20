@@ -23,11 +23,13 @@ public class Application {
             pstmt = conn.prepareStatement(query); /// 쿼리를 같이 넘기면서 스태이트먼트 객체를 생성한다.
 
             ///  현재 담겨있는 미완성된 sql문을 완성형으로 만들기(사용자가 입력한 값을 ?에 채우기)
-            pstmt.setString(1, inputEmpId); //사용자가 입력한 id값을 쿼리의 첫번째 ?에 채워넣는다.
+            //사용자가 입력한 id값을 쿼리의 첫번째 ?에 채워넣는다.
+            pstmt.setString(1, inputEmpId);         // 파라미터 바인딩
+    
 
             rset = pstmt.executeQuery(); /// sql문 결과 받기
 
-            /// 결과 처리
+            /// 매핑
             if(rset.next()) {
                 emp = new EmployeeDTO(
                         rs.getString("emp_id")
