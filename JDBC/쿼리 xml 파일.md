@@ -1,6 +1,7 @@
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
 <properties>
     
     <!-- 성으로 직원 조회용 쿼리-->
