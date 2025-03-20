@@ -1,3 +1,4 @@
+```java
 public class JDBCTemplate {
 
     public static Connection getConnection() {
@@ -52,3 +53,4 @@ public class JDBCTemplate {
     }
   
 }
+```
