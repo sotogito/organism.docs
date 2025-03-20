@@ -1,3 +1,4 @@
+```java
 public class Application1 {
     public static void main(String[] args) {
         Connection conn = JDBCTemplate.getConnection();
@@ -31,6 +32,7 @@ public class Application1 {
         }
     }
 }
+```
 
 /*
 200 : 선동일
