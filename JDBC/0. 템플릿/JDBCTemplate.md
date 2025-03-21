@@ -49,4 +49,20 @@
             throw new RuntimeException(e);
         }
     }
+
+    public static void commit(Connection conn) {
+        try {
+            if (conn != null && !conn.isClosed()) conn.commit();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static void rollback(Connection conn) {
+        try {
+            if (conn != null && !conn.isClosed()) conn.rollback();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
 ```
