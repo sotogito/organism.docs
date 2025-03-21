@@ -10,8 +10,9 @@
 
             Class.forName(prop.getProperty("driver"));
             conn = DriverManager.getConnection(prop.getProperty("url")
-                    ,prop.getProperty("user")
-                    ,prop.getProperty("password"));
+                                             , prop.getProperty("user")
+                                             , prop.getProperty("password"));
+            conn.setAutoCommit(false);
 
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
@@ -22,7 +23,6 @@
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-
         return conn;
     }
 
