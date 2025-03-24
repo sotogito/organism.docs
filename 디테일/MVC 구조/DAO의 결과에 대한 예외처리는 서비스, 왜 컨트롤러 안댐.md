@@ -1,5 +1,6 @@
 #### 결론적으로 컨트롤러는 로직 판단을 하지 얺아야한다. - 오직 요청&응답만 담당
 #### 의미가 있는 로직은 서비스에서 담당
+---
 ```java
     public List<MenuDto> selectMenuList() {
         Connection conn = getConnection();
