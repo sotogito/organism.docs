@@ -1,3 +1,4 @@
+- 싱글톤패턴
 ### class
 ```java
 import org.apache.ibatis.io.Resources;
