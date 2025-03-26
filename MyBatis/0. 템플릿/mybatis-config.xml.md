@@ -1,5 +1,5 @@
 - resources/config
-- my-batis.xml
+- mybatis-config.xml
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE configuration
