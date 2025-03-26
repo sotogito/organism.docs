@@ -5,11 +5,10 @@
 <!DOCTYPE configuration
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-config.dtd">
-<!-- Configuration 생성-->
+
 <configuration>
 
-    <environments default="dev"> <!--environment들에서 기본으로 사용할 id-->
-        <!-- Environment 생성-->
+    <environments default="dev"> 
         <environment id="dev">
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
