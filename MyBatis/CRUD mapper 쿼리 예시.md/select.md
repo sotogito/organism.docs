@@ -18,11 +18,11 @@ FROM
 - ResultMap
 ```xml
     <resultMap id="menuResultMap" type="com.sotogito.dto.MenuDto">
-        <id column="menu_code" property="menuCode"/>
-        <result column="menu_name" property="menuName"/>
-        <result column="menu_price" property="menuPrice"/>
-        <result column="category_code" property="categoryCode"/>
-        <result column="orderable_status" property="orderableStatus"/>
+        <id       column="menu_code"        property="menuCode"/>
+        <result  column="menu_name"         property="menuName"/>
+        <result  column="menu_price"        property="menuPrice"/>
+        <result  column="category_code"     property="categoryCode"/>
+        <result  column="orderable_status"  property="orderableStatus"/>
     </resultMap>
 ```
 ```xml
