@@ -1,3 +1,4 @@
+- 복잡한 타입의 연관관계로 1:1 포함관계(has-a)를 매핑
 ```java
 public class MenuDto {
     private int menuCode;
