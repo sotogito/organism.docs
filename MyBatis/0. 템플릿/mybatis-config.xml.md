@@ -9,6 +9,7 @@
 <configuration>
 
     <typeAliases>
+        <typeAlias type="별칠등록할DTO풀네임" alias="별칭"/>
     </typeAliases>
 
     <environments default="dev">
@@ -24,6 +25,7 @@
     </environments>
 
     <mappers>
+        <mapper resource="매퍼.xml경로"/>
     </mappers>
 
 </configuration>
