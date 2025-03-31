@@ -8,17 +8,23 @@
 
 <configuration>
 
-    <environments default="dev"> 
+    <typeAliases>
+    </typeAliases>
+
+    <environments default="dev">
         <environment id="dev">
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
-                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/menudb"/>
-                <property name="username" value="sotogito"/>
-                <property name="password" value="sotogito"/>
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
             </dataSource>
         </environment>
     </environments>
+
+    <mappers>
+    </mappers>
 
 </configuration>
 ```
