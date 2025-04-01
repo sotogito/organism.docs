@@ -15,7 +15,7 @@ public class Template {
     public static SqlSession getSqlSession() {
         if (sqlSessionFactory == null) {
             try{
-                InputStream inputStream = Resources.getResourceAsStream("section01/xml/mybatis-config.xml");
+                InputStream inputStream = Resources.getResourceAsStream("config/mybatis-config.xml");
                 sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
             } catch (IOException e) {
                 throw new RuntimeException(e);
@@ -42,7 +42,7 @@ public enum MyBatisSessionFactory {
 
     MyBatisSessionFactory() {
         try {
-            InputStream inputStream = Resources.getResourceAsStream("section01/xml/mybatis-config.xml");
+            InputStream inputStream = Resources.getResourceAsStream("config/mybatis-config.xml");
             sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         } catch (IOException e) {
             throw new RuntimeException(e);
