@@ -1,19 +1,21 @@
 ## JSP에서 페이지 가공시 사용할 데이터 담기 => JSP 내장객체 ##
-1. application (ServletContext) -------------------------잘안씀
+#### application (ServletContext) -------------------------잘안씀
    1) 한 애플리케이션당 단 1개 존재하는 객체
    2) 애플리케이션에 유지할 데이터 담기
    3) 애플리케이션 종료 전까지 애플리케이션 전역에서 데이터 사용 가능
-2. session (HttpSession)---------------씀
+#### session (HttpSession)---------------씀
    1) 한 브라우저당 1개 존재하는 객체
    2) 브라우저에 유지할 데이터 담기
    3) 브라우저 종료 전|서버 종료 전까지 jsp/servlet 단에서 데이터 사용 가능
     -> 사용자가 로그인해서 세션이유지되는동안 데이터가 살아있음
-3. request (HttpServletRequest)---------------------------많이씀
+#### request (HttpServletRequest)---------------------------많이씀
    1) 한 요청당 1개 존재하는 객체
    2) 해당 요청에 대한 응답페이지에 사용할 데이터 담기
    3) forward에 의해 해당 request가 전달된 Servlet, JSP에서만 데이터 사용 가능
     -> 하나의요청에서만 사용 가능 (forward해도 유지)
-4. pageContext
+#### pageContext
    1) 한 jsp당 1개 존재하는 객체
    2) 해당 페이지에 필요한 데이터를 해당 페이지에서 담을 수 있음
    3) jsp에서 담고 해당 jsp에서만 사용 가능
+
+setAttribute()
