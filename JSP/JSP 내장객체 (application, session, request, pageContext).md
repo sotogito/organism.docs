@@ -18,4 +18,13 @@
    2) 해당 페이지에 필요한 데이터를 해당 페이지에서 담을 수 있음
    3) jsp에서 담고 해당 jsp에서만 사용 가능
 
-setAttribute()
+## Serlvet에서 해당 객체 접근 방법
+1) ServletContext     : request.getServletContext()
+2) HttpSession        : request.getSession()
+3) HttpServletRequest : 매개변수로 이미 존재
+4) PageContext      : 접근 불가
+
+## 해당 객체들의 공통메소드
+1) Attribute 담기  : .setAttribute("attributename", 담고자하는데이터)
+2) Attribute 꺼내기   : .getAttribute("attributename") - Object로 꺼내짐
+3) Attribute 제거하기 : .removeAttribute("attributename")
