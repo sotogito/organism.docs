@@ -28,3 +28,28 @@
 1) Attribute 담기  : .setAttribute("attributename", 담고자하는데이터)
 2) Attribute 꺼내기   : .getAttribute("attributename") - Object로 꺼내짐
 3) Attribute 제거하기 : .removeAttribute("attributename")
+
+---
+```java
+        ///  request Scope에 attribute 담기
+        req.setAttribute("classRoom", "2강의장");
+        req.setAttribute("student", new PersonDto("홍길동", 20, "남자"));
+
+        /// session Scope에 attribute 담기
+        HttpSession session = req.getSession();
+        session.setAttribute("teacher", new PersonDto("김말순", 36, "여자"));
+
+        /// application Scope attribute 담기
+        ServletContext application = req.getServletContext();
+        application.setAttribute("academy", "ssg");
+```
+```jsp
+  <%
+    String classRoom = (String) request.getAttribute("classRoom");
+    PersonDto student = (PersonDto) request.getAttribute("student");
+    
+    PersonDto teacher = (PersonDto) session.getAttribute("teacher");
+    
+    String academy = (String) application.getAttribute("academy");
+  %>
+```
