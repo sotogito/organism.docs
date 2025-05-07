@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "spring/IoC 제어역전/Bean 등록 방법/3. annotation.md",
+                "file": "spring/IoC 제어역전/IoC Container.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. annotation"
+              "title": "IoC Container"
             }
           }
         ],
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "spring/IoC 제어역전/Bean 등록 방법/3. annotation.md",
+                "file": "spring/IoC 제어역전/IoC Container.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 3. annotation"
+              "title": "Backlinks for IoC Container"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "spring/IoC 제어역전/Bean 등록 방법/3. annotation.md",
+                "file": "spring/IoC 제어역전/IoC Container.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 3. annotation"
+              "title": "Outgoing links from IoC Container"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "spring/IoC 제어역전/Bean 등록 방법/3. annotation.md",
+                "file": "spring/IoC 제어역전/IoC Container.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3. annotation"
+              "title": "Outline of IoC Container"
             }
           }
         ]
@@ -214,11 +214,11 @@
   },
   "active": "74bf3782fc0b3f7b",
   "lastOpenFiles": [
+    "spring/IoC 제어역전/Bean 등록 방법/3. annotation.md",
     "spring/IoC 제어역전/Bean 등록 방법/2. java.md",
     "spring/IoC 제어역전",
     "spring/IoC 제어역전/Bean 등록 방법/1. xml.md",
-    "spring/IoC Container.md",
-    "spring/IoC 제어역전/Bean 등록 방법/3. annotation.md",
+    "spring/IoC 제어역전/IoC Container.md",
     "spring/DI (Dependency Injection) 의존성 주입",
     "spring/1. spring.md",
     "spring/IoC 제어역전/Bean 등록 방법",
