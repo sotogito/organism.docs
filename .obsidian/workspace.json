@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "spring/IoC 제어역전/IoC Container.md",
+                "file": "spring/0. 템플릿/tasks.withType(JavaComplie).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IoC Container"
+              "title": "tasks.withType(JavaComplie)"
             }
           }
         ],
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "spring/IoC 제어역전/IoC Container.md",
+                "file": "spring/0. 템플릿/tasks.withType(JavaComplie).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for IoC Container"
+              "title": "Backlinks for tasks.withType(JavaComplie)"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "spring/IoC 제어역전/IoC Container.md",
+                "file": "spring/0. 템플릿/tasks.withType(JavaComplie).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from IoC Container"
+              "title": "Outgoing links from tasks.withType(JavaComplie)"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "spring/IoC 제어역전/IoC Container.md",
+                "file": "spring/0. 템플릿/tasks.withType(JavaComplie).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of IoC Container"
+              "title": "Outline of tasks.withType(JavaComplie)"
             }
           }
         ]
@@ -214,15 +214,19 @@
   },
   "active": "74bf3782fc0b3f7b",
   "lastOpenFiles": [
+    "spring/0. 템플릿/dependence.md",
+    "spring/0. 템플릿/tasks.withType(JavaComplie).md",
+    "🧑‍💻IDE/Intellj/컴파일 시 파라미터 변경 설정.md",
+    "🧑‍💻IDE/Intellj",
+    "🧑‍💻IDE",
+    "spring/IoC 제어역전/IoC Container.md",
     "spring/IoC 제어역전/Bean 등록 방법/3. annotation.md",
     "spring/IoC 제어역전/Bean 등록 방법/2. java.md",
     "spring/IoC 제어역전",
     "spring/IoC 제어역전/Bean 등록 방법/1. xml.md",
-    "spring/IoC 제어역전/IoC Container.md",
     "spring/DI (Dependency Injection) 의존성 주입",
     "spring/1. spring.md",
     "spring/IoC 제어역전/Bean 등록 방법",
-    "spring/0. 템플릿/dependence.md",
     "JDBC/0. 템플릿/JDBCTemplate.md",
     "Lombok/0. 템플릿/dependence.md",
     "Lombok/0. 템플릿/어노테이션.md",
