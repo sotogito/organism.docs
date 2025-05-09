@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logging/logback/logback.xml.md",
-                "mode": "source",
+                "file": "spring/ModelAttribute 커맨드객체.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "logback.xml"
+              "title": "ModelAttribute 커맨드객체"
             }
           }
         ],
@@ -121,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4ed7952e7eaff4d4",
@@ -215,9 +214,12 @@
   },
   "active": "74bf3782fc0b3f7b",
   "lastOpenFiles": [
+    "spring/RequestParam.md",
+    "spring/ModelAttribute 커맨드객체.md",
+    "Logging/lombook log 어노테이션.md",
+    "Logging/logback/logback.xml.md",
     "Logging/0.템플릿/dependence.md",
     "spring/0. 템플릿/dependence.md",
-    "Logging/logback/logback.xml.md",
     "Logging/logback/Untitled.md",
     "Logging/logback",
     "Logging/logback.md",
@@ -242,9 +244,6 @@
     "spring/DI (Dependency Injection) 의존성 주입/@Autowired/주입 방법/2. 생성자 주입(선호).md",
     "spring/DI (Dependency Injection) 의존성 주입/@Autowired/주입 방법/1. 필드 주입.md",
     "spring/IoC 제어역전/Bean 등록 방법/3. annotation.md",
-    "spring/IoC 제어역전/Bean 등록 방법/1. xml.md",
-    "spring/IoC 제어역전/IoC Container.md",
-    "spring/DI (Dependency Injection) 의존성 주입/1. DI.md",
     "spring/DI (Dependency Injection) 의존성 주입/@Autowired/주입 방법",
     "spring/DI (Dependency Injection) 의존성 주입/@Autowired",
     "🧑‍💻IDE/Intellj",
