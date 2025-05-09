@@ -26,14 +26,5 @@ public class MemberDto {
 }
 ```
 
-
-<form action="${contextPath}/member/regist3.do" method="POST">  
-  이름 : <input type="text" name="name"><br>  
-  나이 : <input type="number" name="age"><br>  
-  주소 : <input type="text" name="address">  
-  <button type="submit">등록</button>  
-</form>
-
-- REST API 시대에 `@RequestBody`가 대세이긴 함
-    
+- REST API 시대에 `@RequestBody`가 많이 사용
 - 하지만 웹 애플리케이션이나 관리자 페이지처럼 **서버 렌더링 중심**인 경우엔 여전히 `@ModelAttribute` 많이 씀
