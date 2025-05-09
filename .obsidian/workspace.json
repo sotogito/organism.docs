@@ -121,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4ed7952e7eaff4d4",
@@ -214,13 +215,13 @@
   },
   "active": "74bf3782fc0b3f7b",
   "lastOpenFiles": [
-    "Logging/logback/Untitled.md",
+    "Logging/0.템플릿/dependence.md",
+    "spring/0. 템플릿/dependence.md",
     "Logging/logback/logback.xml.md",
+    "Logging/logback/Untitled.md",
     "Logging/logback",
     "Logging/logback.md",
     "Logging/로그레벨.md",
-    "Logging/0.템플릿/dependence.md",
-    "spring/0. 템플릿/dependence.md",
     "Logging/0.템플릿",
     "Logging",
     "spring/DI (Dependency Injection) 의존성 주입/post-redirect-get 패턴.md",
