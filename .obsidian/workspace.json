@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "spring/controller-view/Controller 에서 View 데이터 전달/RedirectAttribute (Model의 소멸).md",
+                "file": "spring/1. spring.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RedirectAttribute (Model의 소멸)"
+              "title": "1. spring"
             }
           }
         ],
@@ -73,7 +73,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "파일 탐색기"
             }
           },
           {
@@ -189,19 +189,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "0ae7fc573aa0d7e0",
   "lastOpenFiles": [
-    "spring/controller-view/Controller 에서 View 데이터 전달/0. 응답 데이터 보내기.md",
+    "spring/url 패턴.md",
     "spring/controller-view/Controller 에서 View 데이터 전달/RedirectAttribute (Model의 소멸).md",
+    "spring/controller-view/Controller 에서 View 데이터 전달/0. 응답 데이터 보내기.md",
     "spring/controller-view/View에서 Controller 데이터 받음/0. 요청 데이터 받기.md",
     "spring/controller-view/View에서 Controller 데이터 받음/ModelAttribute 커맨드객체 (잘안씀).md",
     "spring/controller-view/View에서 Controller 데이터 받음/RequestParam.md",
@@ -210,7 +211,6 @@
     "spring/controller-view/Controller 에서 View 데이터 전달",
     "spring/controller-view/View에서 Controller 데이터 받음",
     "spring/controller-view",
-    "spring/url 패턴.md",
     "🔵 컨벤션/🔮 구조 설계 가이드.md",
     "🔵 컨벤션/🔵 컨벤션.md",
     "🔵 컨벤션/커밋 메시지.md",
