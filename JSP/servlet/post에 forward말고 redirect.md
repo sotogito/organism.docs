@@ -41,3 +41,4 @@ post결과를 서버에서 forward로 /board/boardList.html응답해도 화면�
 
  ### 그래서 redirect
  
+redirect 는 Status가 302. 즉, 임시저장이다.
