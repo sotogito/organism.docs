@@ -34,4 +34,5 @@ public class FileUtil {
 #### 주의할 점
 util 클래스라 외부에서 사용할 서비스의 DTO와 의존도가 높아지면 안된다. 때문에 util의 반환값은 서비스에서 사용할 DTO가 아닌 
 - 독립적인 DTO(record 추천)
-- map인데 map은 내가싫다
+- map인데
+util이기 떄문에 dto보다는 map이 나을 거 같다.
