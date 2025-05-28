@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AJAX/@ResponseBody vs @ResponseEntity.md",
+                "file": "springBoot/Interceptor/0. 인터셉터.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "@ResponseBody vs @ResponseEntity"
+              "title": "0. 인터셉터"
             }
           }
         ],
@@ -239,13 +239,19 @@
   },
   "active": "2011b7dca60b5f16",
   "lastOpenFiles": [
-    "AJAX/ResponseEntity/GET과 POST의 fetch문 차이점.md",
+    "springBoot/Interceptor/로그인 확인.md",
+    "springBoot/Interceptor/0. 인터셉터.md",
+    "springBoot/Interceptor/로그인 확인",
+    "Logging/로그레벨.md",
+    "디테일/util/FileUtil.md",
+    "FE/JavaScript/화살표 함수.md",
     "AJAX/ResponseEntity/3. 비동기 게시물 등록 - POST.md",
+    "AJAX/@ResponseBody vs @ResponseEntity.md",
+    "AJAX/ResponseEntity/GET과 POST의 fetch문 차이점.md",
     "AJAX/ResponseEntity/2. 비동기 게시글 상세조회 - GET.md",
     "AJAX/ResponseEntity/1. 비동기 페이지네이션 paging - GET.md",
     "AJAX/ResponseEntity/0. ResponseEntity.md",
     "AJAX/ResponseBody/비동기 페이지 관리 controller.md",
-    "AJAX/@ResponseBody vs @ResponseEntity.md",
     "AJAX/0. ajax.md",
     "AJAX/fetch-then(response)-then(data)-catch(error).md",
     "AJAX/POST 방식의 JSON vs FormData.md",
@@ -264,16 +270,10 @@
     "spring/controller-view/View에서 Controller 데이터 받음/Controller 에서 View 데이터 전달/0. 응답 데이터 보내기.md",
     "spring/DI (Dependency Injection) 의존성 주입/@RequiredArgsConstructor.md",
     "spring/controller-view/View에서 Controller 데이터 받음/RequestParam.md",
-    "SQL/MySQL/0. 템플릿/DB생성 및 권한 부여.md",
-    "SQL/MySQL/SQL 명령어 유형 종류.md",
-    "MyBatis/0. 템플릿/connection-config.properties.md",
-    "MyBatis/0. 템플릿/dependencies.md",
-    "MyBatis/0. 템플릿/SqlSessionFactory.md",
     "springBoot/Interceptor",
     "디테일/util",
     "Thymeleaf/주요 표현식",
     "Thymeleaf",
-    "springBoot",
-    "spring/Scheduler"
+    "springBoot"
   ]
 }
