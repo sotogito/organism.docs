@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "springBoot/Interceptor/0. 인터셉터.md",
+                "file": "springBoot/Exception/사용자 정의 예외 처리 순서.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. 인터셉터"
+              "title": "사용자 정의 예외 처리 순서"
             }
           }
         ],
@@ -237,10 +237,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2011b7dca60b5f16",
+  "active": "75ad1a2c595036e2",
   "lastOpenFiles": [
-    "springBoot/Interceptor/로그인 확인.md",
+    "REST/URL 명명 규칙.md",
+    "springBoot/Exception/사용자 정의 예외 처리 순서.md",
+    "springBoot/Exception",
+    "REST/HTTP 4가지 요청 방식.md",
+    "나가기전에.md",
+    "REST/REST 6가지 아키텍처 원칙.md",
     "springBoot/Interceptor/0. 인터셉터.md",
+    "springBoot/Interceptor/로그인 확인.md",
     "springBoot/Interceptor/로그인 확인",
     "Logging/로그레벨.md",
     "디테일/util/FileUtil.md",
@@ -255,7 +261,6 @@
     "AJAX/0. ajax.md",
     "AJAX/fetch-then(response)-then(data)-catch(error).md",
     "AJAX/POST 방식의 JSON vs FormData.md",
-    "REST/URL 명명 규칙.md",
     "REST",
     "AJAX/Untitled",
     "AJAX/비동기 페이지네이션.md",
@@ -266,14 +271,9 @@
     "spring/controller-view/View에서 Controller 데이터 받음/0. 요청 데이터 받기.md",
     "AJAX/ResponseEntity",
     "AJAX/예시/4. Java 객체(DTO) 응답.md",
-    "AJAX/예시/5. Java 객체(List) 응답.md",
-    "spring/controller-view/View에서 Controller 데이터 받음/Controller 에서 View 데이터 전달/0. 응답 데이터 보내기.md",
-    "spring/DI (Dependency Injection) 의존성 주입/@RequiredArgsConstructor.md",
-    "spring/controller-view/View에서 Controller 데이터 받음/RequestParam.md",
     "springBoot/Interceptor",
     "디테일/util",
     "Thymeleaf/주요 표현식",
-    "Thymeleaf",
-    "springBoot"
+    "Thymeleaf"
   ]
 }
