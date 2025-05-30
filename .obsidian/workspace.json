@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "springBoot/Swagger.md",
-                "mode": "source",
+                "file": "spring/Spring Security/0. 스프링 시큐리티.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Swagger"
+              "title": "0. 스프링 시큐리티"
             }
           }
         ],
@@ -237,10 +237,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2011b7dca60b5f16",
+  "active": "75ad1a2c595036e2",
   "lastOpenFiles": [
-    "springBoot/0. 템플릿/Swagger dependencies.md",
+    "spring/1. spring.md",
+    "spring/Spring Security/0. 스프링 시큐리티.md",
     "springBoot/Swagger.md",
+    "spring/Spring Security",
+    "springBoot/0. 템플릿/Swagger dependencies.md",
     "springBoot/Exception/@ExceptionHandler 메서드 정의 방법.md",
     "springBoot/0. 템플릿",
     "springBoot/Interceptor/0. 인터셉터.md",
@@ -268,12 +271,9 @@
     "AJAX/ResponseBody/비동기 페이지 관리 controller.md",
     "AJAX/0. ajax.md",
     "AJAX/fetch-then(response)-then(data)-catch(error).md",
-    "AJAX/POST 방식의 JSON vs FormData.md",
     "REST",
     "AJAX/Untitled",
-    "AJAX/비동기 페이지네이션.md",
     "AJAX/ResponseBody",
-    "AJAX/ResponseEntity",
-    "springBoot/Interceptor"
+    "AJAX/ResponseEntity"
   ]
 }
