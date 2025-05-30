@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "springBoot/Exception/@ExceptionHandler 메서드 정의 방법.md",
+                "file": "springBoot/Validation/주요 어노테이션.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "@ExceptionHandler 메서드 정의 방법"
+              "title": "주요 어노테이션"
             }
           }
         ],
@@ -239,8 +239,10 @@
   },
   "active": "2011b7dca60b5f16",
   "lastOpenFiles": [
-    "springBoot/Exception/사용자 정의 예외 처리 순서.md",
     "springBoot/Exception/@ExceptionHandler 메서드 정의 방법.md",
+    "springBoot/Validation/주요 어노테이션.md",
+    "springBoot/Validation",
+    "springBoot/Exception/사용자 정의 예외 처리 순서.md",
     "springBoot/Interceptor/0. 인터셉터.md",
     "springBoot/Interceptor/로그인 확인.md",
     "REST/URL 명명 규칙.md",
@@ -269,11 +271,9 @@
     "AJAX/예시/1. GET요청(파라미터-쿼리스트링), 문자열 응답.md",
     "AJAX/예시/3. POST요청(파라미터-JSON문자열), 문자열 응답.md",
     "AJAX/예시/2. POST요청(파라미터-폼데이터), 문자열 응답.md",
-    "spring/controller-view/View에서 Controller 데이터 받음/0. 요청 데이터 받기.md",
     "AJAX/ResponseEntity",
     "springBoot/Interceptor",
     "디테일/util",
-    "Thymeleaf/주요 표현식",
-    "Thymeleaf"
+    "Thymeleaf/주요 표현식"
   ]
 }
