@@ -1,2 +1,3 @@
 - 영속성 컨텍스트를 사용하는 API
 	- persist,find,flush,remove등 기능을 제공
+- 시키는(호출하는) 애

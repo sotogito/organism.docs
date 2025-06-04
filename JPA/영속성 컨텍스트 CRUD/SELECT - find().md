@@ -20,3 +20,7 @@ public void select() {
 6. 객체 생성
 7. 1차 캐시에 저장
 8. 영속 상태로 전환 후 반환
+
+---
+- 영속성 관리 : 영속성 컨텍스트
+- DB 쿼리 전송/전송 : JPA 구현체(Hibernate) - EntityManager가 시킴

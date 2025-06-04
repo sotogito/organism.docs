@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JPA/영속성 컨텍스트 CRUD/SELECT.md",
+                "file": "JPA/준영속/merge() - 비,준영속-영속.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SELECT"
+              "title": "merge() - 비,준영속-영속"
             }
           }
         ],
@@ -253,18 +253,21 @@
   },
   "active": "033e619306605769",
   "lastOpenFiles": [
-    "JPA/영속성 컨텍스트 CRUD/0. 영속성 컨텍스트.md",
-    "JPA/EntityManager 엔티티매니저.md",
-    "JPA/영속성 컨텍스트 CRUD/SELECT.md",
-    "JPA/1차 캐시.md",
     "JPA/준영속/close() - 종료.md",
     "JPA/준영속/clear() 초기화.md",
     "JPA/준영속/detch() 영속-준영속.md",
+    "JPA/영속성 컨텍스트 CRUD/0. PersistenceContext 영속성 컨텍스트.md",
+    "JPA/영속성 컨텍스트 CRUD/DELETE - find()+remove().md",
+    "JPA/영속성 컨텍스트 CRUD/INSERT - persist().md",
+    "JPA/영속성 컨텍스트 CRUD/SELECT - find().md",
+    "JPA/영속성 컨텍스트 CRUD/UPDATE - find()+setter.md",
+    "JPA/EntityManager 엔티티매니저.md",
     "JPA/준영속/merge() - 비,준영속-영속.md",
+    "JPA/영속vs준영속vs비영속vs삭제 - Entity의 생명주기.md",
+    "JPA/트랜잭션을 지원하는 쓰기 지연.md",
+    "JPA/1차 캐시.md",
     "JPA/0. 링크.md",
     "JPA/0. JPA.md",
-    "JPA/쓰기 지연.md",
-    "JPA/영속vs준영속vs비영속vs삭제 - Entity의 생명주기.md",
     "JPA/flush().md",
     "FE/JavaScript/LocalStorage.md",
     "JPA/Entity 생명주기.md",
@@ -280,9 +283,6 @@
     "Lombok/0. 템플릿/어노테이션.md",
     "JPA",
     "FE/JavaScript/컨벤션/0. 컨벤션.md",
-    "FE/JavaScript/객체 리터럴 + 메서드 정의 방식.md",
-    "FE/JavaScript/즉시 실행함수.md",
-    "FE/JavaScript/함수&클로저&클래스.md",
     "FE/JavaScript/메서드",
     "FE/JavaScript/컨벤션",
     "spring/Spring Security",
