@@ -90,9 +90,23 @@
               "icon": "lucide-file",
               "title": "LocalStorage"
             }
+          },
+          {
+            "id": "859a6d685675d3b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JPA/0. JPA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0. JPA"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -251,10 +265,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "033e619306605769",
+  "active": "75ad1a2c595036e2",
   "lastOpenFiles": [
-    "FE/JavaScript/컨벤션/0. 컨벤션.md",
+    "JPA",
     "FE/JavaScript/LocalStorage.md",
+    "JPA/0. JPA.md",
+    "FE/JavaScript/컨벤션/0. 컨벤션.md",
     "FE/JavaScript/객체 리터럴 + 메서드 정의 방식.md",
     "FE/JavaScript/즉시 실행함수.md",
     "FE/JavaScript/함수&클로저&클래스.md",
@@ -281,9 +297,7 @@
     "springBoot/Interceptor/0. 인터셉터.md",
     "springBoot/Interceptor/로그인 확인.md",
     "springBoot/Validation/그룹 검증.md",
-    "springBoot/Exception/사용자 정의 예외 처리 순서.md",
     "springBoot/Validation/Untitled",
-    "springBoot/Validation/주요 어노테이션.md",
     "springBoot/Validation",
     "springBoot/Exception",
     "springBoot/Interceptor/로그인 확인",
