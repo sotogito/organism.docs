@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JPA/준영속/merge() - 비,준영속-영속.md",
+                "file": "JPA/연관관계 매핑/FetchType 기본값.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "merge() - 비,준영속-영속"
+              "title": "FetchType 기본값"
             }
           }
         ],
@@ -253,6 +253,9 @@
   },
   "active": "033e619306605769",
   "lastOpenFiles": [
+    "JPA/준영속/merge() - 비,준영속-영속.md",
+    "JPA/연관관계 매핑/FetchType 기본값.md",
+    "JPA/연관관계 매핑",
     "JPA/준영속/close() - 종료.md",
     "JPA/준영속/clear() 초기화.md",
     "JPA/준영속/detch() 영속-준영속.md",
@@ -262,7 +265,6 @@
     "JPA/영속성 컨텍스트 CRUD/SELECT - find().md",
     "JPA/영속성 컨텍스트 CRUD/UPDATE - find()+setter.md",
     "JPA/EntityManager 엔티티매니저.md",
-    "JPA/준영속/merge() - 비,준영속-영속.md",
     "JPA/영속vs준영속vs비영속vs삭제 - Entity의 생명주기.md",
     "JPA/트랜잭션을 지원하는 쓰기 지연.md",
     "JPA/1차 캐시.md",
@@ -282,12 +284,10 @@
     "Lombok/0. 템플릿/dependence.md",
     "Lombok/0. 템플릿/어노테이션.md",
     "JPA",
-    "FE/JavaScript/컨벤션/0. 컨벤션.md",
     "FE/JavaScript/메서드",
     "FE/JavaScript/컨벤션",
     "spring/Spring Security",
     "springBoot/0. 템플릿",
-    "springBoot/Validation/Untitled",
-    "springBoot/Validation"
+    "springBoot/Validation/Untitled"
   ]
 }
