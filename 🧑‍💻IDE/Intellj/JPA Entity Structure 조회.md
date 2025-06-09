@@ -1,0 +1,1 @@
+Persistence -> 우클릭 -> Entity Relationship Diagram
