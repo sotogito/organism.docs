@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "springBoot/Exception/@ExceptionHandler 메서드 정의 방법.md",
+                "file": "REST/URL 명명 규칙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "@ExceptionHandler 메서드 정의 방법"
+              "title": "URL 명명 규칙"
             }
           }
         ],
@@ -253,8 +253,10 @@
   },
   "active": "033e619306605769",
   "lastOpenFiles": [
-    "springBoot/Exception/사용자 정의 예외 처리 순서.md",
+    "AJAX/예시/1. GET요청(파라미터-쿼리스트링), 문자열 응답.md",
+    "AJAX/예시/2. POST요청(파라미터-폼데이터), 문자열 응답.md",
     "springBoot/Exception/@ExceptionHandler 메서드 정의 방법.md",
+    "springBoot/Exception/사용자 정의 예외 처리 순서.md",
     "JPA/0. Spring + JPA.md",
     "JPA/0. JPA.md",
     "JPA/new DTO, SqlResultSet Mapping Mapping.md",
@@ -278,10 +280,8 @@
     "JPA/0. 링크.md",
     "JPA/flush().md",
     "FE/JavaScript/LocalStorage.md",
-    "JPA/Entity 생명주기.md",
     "JPA/영속성 컨텍스트 CRUD",
     "JPA/준영속",
-    "디테일/🧪 테스트 코드/샘플.md",
     "JPA/링크",
     "JPA",
     "FE/JavaScript/메서드",
