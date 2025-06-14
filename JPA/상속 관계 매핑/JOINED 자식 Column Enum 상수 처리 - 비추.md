@@ -197,7 +197,10 @@ TimeNotif notif = TimeNotif.builder()
 
 Notification n = em.find(Notification.class, 1L);
 // 실제 DB에선 TimeNotif인지 LocationNotif인지 모르지만
-// JPA가 DTYPE을 보고 알아서 TimeNotif나 LocationNotif로 캐스팅해줌
+// JPA가 DTYPE을 보고 알아서 TimeNotif나 LocationNotif로 캐스팅해줌  
+
+- `"TIME"` → `TimeNotif` 클래스
+- `"LOCATION"` → `LocalNotif` 클래스
 
 ```
 Notification n = em.find(Notification.class, id);
