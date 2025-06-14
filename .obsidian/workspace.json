@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JPA/1. JpaRepository/기본 메서드.md",
+                "file": "JPA/양방향매핑/orphanRemovel 고아객체 자동 제거.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "기본 메서드"
+              "title": "orphanRemovel 고아객체 자동 제거"
             }
           }
         ],
@@ -251,11 +251,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "033e619306605769",
+  "active": "75ad1a2c595036e2",
   "lastOpenFiles": [
-    "JPA/1. JpaRepository/무제.md",
-    "JPA/1. JpaRepository/기본 메서드.md",
     "JPA/양방향매핑/CASCADE.All + orphanRemoval 영속성전이와 고아객체 같이 사용.md",
+    "JPA/1. JpaRepository/기본 메서드.md",
+    "JPA/1. JpaRepository/무제.md",
     "JPA/1. JpaRepository",
     "JPA/양방향매핑/orphanRemovel 고아객체 자동 제거.md",
     "JPA/양방향매핑/CASCADE 영속성 전이.md",
