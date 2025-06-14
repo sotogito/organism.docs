@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JPA/양방향매핑/CASCADE 영속성 전이.md",
+                "file": "JPA/N+1 문제 - JOIN FETCH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CASCADE 영속성 전이"
+              "title": "N+1 문제 - JOIN FETCH"
             }
           }
         ],
@@ -253,8 +253,9 @@
   },
   "active": "033e619306605769",
   "lastOpenFiles": [
-    "JPA/양방향매핑/orphanRemovel 고아객체 자동 제거.md",
     "JPA/양방향매핑/CASCADE 영속성 전이.md",
+    "JPA/N+1 문제 - JOIN FETCH.md",
+    "JPA/양방향매핑/orphanRemovel 고아객체 자동 제거.md",
     "JPA/무제.md",
     "JPA/양방향매핑",
     "🔵 컨벤션/정신.md",
@@ -280,7 +281,6 @@
     "JPA/0. 링크.md",
     "JPA/0. JPA.md",
     "JPA/flush().md",
-    "FE/JavaScript/LocalStorage.md",
     "JPA/영속성 컨텍스트 CRUD",
     "JPA/준영속",
     "JPA/링크",

@@ -39,6 +39,7 @@ parent.getChildren().add(child); // ✅ 자바 객체 일관성 맞추기
 parentRepository.save(parent); // ✅ 자식까지 자동 저장됨
 ```
 보통 부모에 제약조건을 걸어두어 부모에서 변경을 하면 자식도 자동으로 저장이 된다.  
+부모 -> 자식으로 영속성 전이.
 
 
 
