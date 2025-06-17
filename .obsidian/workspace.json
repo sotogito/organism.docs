@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/서버 운영 방식.md",
+                "file": "DevOps/Docker/image/도커 이미지 명령어.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "서버 운영 방식"
+              "title": "도커 이미지 명령어"
             }
           }
         ],
@@ -237,7 +237,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,8 +253,12 @@
   },
   "active": "033e619306605769",
   "lastOpenFiles": [
-    "DevOps/NCP/Inbound 규칙.md",
+    "DevOps/Docker/설치.md",
+    "DevOps/Docker/image/도커 이미지 명령어.md",
+    "DevOps/Docker/image",
     "DevOps/서버 운영 방식.md",
+    "DevOps/Docker",
+    "DevOps/NCP/Inbound 규칙.md",
     "springdatajpa-0.0.1-SNAPSHOT.jar",
     "DevOps/MobaXterm.md",
     "DevOps/NCP",
@@ -283,9 +288,6 @@
     "JPA/연관관계 매핑/FetchType 기본값.md",
     "JPA/준영속/merge() - 비,준영속-영속.md",
     "JPA/연관관계 매핑",
-    "JPA/준영속/close() - 종료.md",
-    "JPA/영속성 컨텍스트 CRUD",
-    "JPA/준영속",
-    "JPA/링크"
+    "JPA/영속성 컨텍스트 CRUD"
   ]
 }
