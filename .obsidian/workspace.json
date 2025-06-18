@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Docker/image/도커 이미지 명령어.md",
+                "file": "DevOps/Docker/volume/볼륨 명령어.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "도커 이미지 명령어"
+              "title": "볼륨 명령어"
             }
           }
         ],
@@ -253,8 +253,11 @@
   },
   "active": "033e619306605769",
   "lastOpenFiles": [
-    "DevOps/Docker/설치.md",
     "DevOps/Docker/image/도커 이미지 명령어.md",
+    "DevOps/Docker/volume/볼륨 명령어.md",
+    "DevOps/Docker/volume/docker volume.md",
+    "DevOps/Docker/volume",
+    "DevOps/Docker/설치.md",
     "DevOps/Docker/image",
     "DevOps/서버 운영 방식.md",
     "DevOps/Docker",
@@ -285,9 +288,6 @@
     "JPA/new DTO, SqlResultSet Mapping Mapping.md",
     "SQL/ERD/설계/4. 무결성(Integrity)과 제약조건(Constraints).md",
     "🧑‍💻IDE/Intellj/JPA Entity Structure 조회.md",
-    "JPA/연관관계 매핑/FetchType 기본값.md",
-    "JPA/준영속/merge() - 비,준영속-영속.md",
-    "JPA/연관관계 매핑",
-    "JPA/영속성 컨텍스트 CRUD"
+    "JPA/연관관계 매핑"
   ]
 }
