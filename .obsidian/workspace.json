@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/0. 리눅스 명령어.md",
+                "file": "DevOps/Docker/이미지+컨테이너+볼륨.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. 리눅스 명령어"
+              "title": "이미지+컨테이너+볼륨"
             }
           }
         ],
@@ -253,10 +253,15 @@
   },
   "active": "033e619306605769",
   "lastOpenFiles": [
+    "DevOps/Docker/image/Dockerfile 명령어.md",
+    "DevOps/Docker/Untitled.md",
+    "DevOps/Docker/image/Dockerfile 예시.md",
+    "DevOps/Docker/image/Untitled",
+    "DevOps/Docker/이미지+컨테이너+볼륨.md",
     "DevOps/Docker/왜사용.md",
+    "DevOps/Docker/설치.md",
     "DevOps/0. 리눅스 명령어.md",
-    "DevOps/이미지+컨테이너+볼륨.md",
-    "DevOps/컨테이너 + 이미지 + 볼륨 한번에 생성.md",
+    "DevOps/Docker/컨테이너 + 이미지 + 볼륨 한번에 생성.md",
     "DevOps/서버 운영 방식.md",
     "MyBatis/CRUD mapper 쿼리 예시.md/update.md",
     "MyBatis/CRUD mapper 쿼리 예시.md/select.md",
@@ -265,7 +270,6 @@
     "DevOps/Docker/volume/docker volume.md",
     "DevOps/Docker/volume/볼륨 명령어.md",
     "DevOps/Docker/image/도커 이미지 명령어.md",
-    "DevOps/Docker/설치.md",
     "DevOps/Docker/volume",
     "DevOps/Docker/image",
     "DevOps/Docker",
@@ -284,10 +288,6 @@
     "JPA/상속 관계 매핑",
     "JPA/무제.md",
     "JPA/N+1 문제 - JOIN FETCH.md",
-    "JPA/1. JpaRepository/기본 메서드.md",
-    "JPA/1. JpaRepository",
-    "REST/URL 명명 규칙.md",
-    "AJAX/예시/1. GET요청(파라미터-쿼리스트링), 문자열 응답.md",
-    "JPA/연관관계 매핑"
+    "JPA/1. JpaRepository"
   ]
 }
