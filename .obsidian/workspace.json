@@ -253,12 +253,14 @@
   },
   "active": "033e619306605769",
   "lastOpenFiles": [
-    "DevOps/Docker/이미지+컨테이너+볼륨.md",
+    "DevOps/Docker/배포/jdk 환경변수 설정 + 권한 부여.md",
     "DevOps/Docker/배포/수동 배포.md",
-    "DevOps/Docker/배포",
-    "DevOps/Docker/image/Dockerfile 명령어.md",
-    "DevOps/Docker/Untitled.md",
     "DevOps/Docker/image/Dockerfile 예시.md",
+    "DevOps/Docker/image/Dockerfile 명령어.md",
+    "DevOps/Docker/image/도커 이미지 명령어.md",
+    "DevOps/Docker/이미지+컨테이너+볼륨.md",
+    "DevOps/Docker/배포",
+    "DevOps/Docker/Untitled.md",
     "DevOps/Docker/image/Untitled",
     "DevOps/Docker/왜사용.md",
     "DevOps/Docker/설치.md",
@@ -271,7 +273,6 @@
     "SQL/MySQL/0. 템플릿/DB생성 및 권한 부여.md",
     "DevOps/Docker/volume/docker volume.md",
     "DevOps/Docker/volume/볼륨 명령어.md",
-    "DevOps/Docker/image/도커 이미지 명령어.md",
     "DevOps/Docker/volume",
     "DevOps/Docker/image",
     "DevOps/Docker",
@@ -287,7 +288,6 @@
     "JPA/양방향매핑/CASCADE 영속성 전이.md",
     "JPA/양방향매핑",
     "JPA/상속 관계 매핑/JOINED 자식 Column Enum 상수 처리 - 비추.md",
-    "JPA/상속 관계 매핑",
-    "JPA/무제.md"
+    "JPA/상속 관계 매핑"
   ]
 }

@@ -1,3 +1,18 @@
+
+```
+FROM openjdk:17  
+  
+LABEL maintainer = "sotogito <sotogitoarchive@gamil.com"  
+LABEL version = "1.0.0"  
+  
+ARG JAR_FILE_PATH=build/libs/*.jar  
+COPY ${JAR_FILE_PATH} app.jar  
+  
+ENTRYPOINT ["java","-jar", "xxx.jar"]
+```
+- COPY : 호스트상에 만들어진 build된 jar파일을 image 안에 app.jar 이름의 파일로 복사
+
+---
 ```
 # FROM : 베이스 이미지로 ubuntu지정 
 FROM ubuntu:latest 
