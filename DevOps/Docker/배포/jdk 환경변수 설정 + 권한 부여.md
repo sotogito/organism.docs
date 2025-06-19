@@ -13,12 +13,3 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 - cd 프로젝트명
 - `chmod +x ./gradlew`
-
-docker run -d \
-> --name app-container \
-> -p 8080:8080 \
-> -e SPRING_PROFILES_ACTIVE=prod \
-> -e PROD_DB_URL=jdbc:mysql://211.188.48.119:3306/menudb \
-> -e PROD_DB_USERNAME=sotogito \
-> -e PROD_DB_PASSWORD=sotogito \
-> app-image
