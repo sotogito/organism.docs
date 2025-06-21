@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Docker/배포/1. 자동 배포.md",
+                "file": "springBoot/계층별 DTO와 Entity 객체.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. 자동 배포"
+              "title": "계층별 DTO와 Entity 객체"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "파일 탐색기"
             }
           },
           {
@@ -171,21 +171,27 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "033e619306605769",
   "lastOpenFiles": [
+    "springBoot/0. 컨벤션.md",
+    "springBoot/계층별 DTO와 Entity 객체.md",
+    "REST/ResponseEntity 구조.md",
+    "REST/HTTP 상태 코드 모음.md",
+    "REST/DTO vs ResponseEntity.md",
+    "REST/HTTP 4가지 요청 방식.md",
+    "DevOps/Docker/배포/1. 자동 배포.md",
     "DevOps/Docker/배포/배포 주요 용어.md",
     "DevOps/Docker/배포/1. 수동 배포.md",
     "DevOps/Docker/배포/jdk 환경변수 설정 + 권한 부여.md",
-    "DevOps/Docker/배포/1. 자동 배포.md",
     "DevOps/Docker/image/도커 이미지 명령어.md",
     "DevOps/Docker/image/Dockerfile 명령어.md",
     "DevOps/Docker/image/Dockerfile 예시.md",
@@ -207,15 +213,9 @@
     "DevOps/Docker/volume",
     "DevOps/Docker/image",
     "DevOps/Docker",
-    "DevOps/NCP/Inbound 규칙.md",
     "springdatajpa-0.0.1-SNAPSHOT.jar",
-    "DevOps/MobaXterm.md",
     "DevOps/NCP",
-    "🧑‍💻IDE/Intellj/환경변수 설정.md",
-    "GET onclick jsp와 비교.md",
     "DevOps",
-    "JPA/양방향매핑/orphanRemovel 고아객체 자동 제거.md",
-    "JPA/양방향매핑/CASCADE.All + orphanRemoval 영속성전이와 고아객체 같이 사용.md",
     "JPA/양방향매핑",
     "JPA/상속 관계 매핑"
   ]
