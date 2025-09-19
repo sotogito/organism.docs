@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/host 호스트.md",
+                "file": "DevOps/클라우드 서비스.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "host 호스트"
+              "title": "클라우드 서비스"
             }
           }
         ]
@@ -183,8 +183,9 @@
   },
   "active": "033e619306605769",
   "lastOpenFiles": [
-    "DevOps/Docker/포트 포워딩.md",
     "DevOps/host 호스트.md",
+    "DevOps/클라우드 서비스.md",
+    "DevOps/Docker/포트 포워딩.md",
     "DevOps/Docker/컨테이너.md",
     "DevOps/Docker/이미지+컨테이너+볼륨.md",
     "DevOps/Docker/포트.md",
@@ -210,7 +211,6 @@
     "REST/HTTP 4가지 요청 방식.md",
     "DevOps/Docker/image/도커 이미지 명령어.md",
     "DevOps/Docker/image/Dockerfile 명령어.md",
-    "DevOps/Docker/image/Dockerfile 예시.md",
     "DevOps/Docker/배포",
     "DevOps/Docker/image/Untitled",
     "DevOps/Docker/volume",
